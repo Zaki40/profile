@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Nunito&family=Roboto:wght@700&family=Water+Brush&display=swap');
+
+body {
+  background-color: white;
+  font-family: 'Lora', sans-serif;
+  color: #575F7D;
+  font-size: 17px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+@media (max-width: 800px) {
+  .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  color: #575F7D;
+  font-size: 32px;
+  font-weight: 900;
+}
+h2 {
+  color: #575F7D;
+  font-size: 20px;
+  font-weight: lighter;
+  font-weight: 500;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+a:hover {
+  color: grey;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.btn-black {
+  background-color: black;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+#intro {
+  background-color: lightgrey;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  height: auto;
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.card-grey {
+  background-color: lightgrey;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: auto;
+  text-align: center;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+#intro p {
+  margin-bottom: 40px;
+}
